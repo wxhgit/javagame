@@ -1,6 +1,7 @@
-//i am master
-
-
+// Canvas Asteroids
+//
+// Copyright (c) 2010 Doug McInnes
+//
 
 
 KEY_CODES = {
@@ -674,7 +675,7 @@ Asteroid = function () {
     this.scale /= 3;
     if (this.scale > 0.5) {
       // break into fragments
-      for (var i = 0; i < 3; i++) {
+      for (var i = 0; i < 2; i++) {
         var roid = $.extend(true, {}, this);
         roid.vel.x = Math.random() * 6 - 3;
         roid.vel.y = Math.random() * 6 - 3;
