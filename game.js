@@ -684,6 +684,7 @@ Asteroid = function () {
         roid.vel.rot = Math.random() * 2 - 1;
         roid.move(roid.scale * 3); // give them a little push
         Game.sprites.push(roid);
+		///add some coins!!!!!
       }
     }
     Game.explosionAt(other.x, other.y);
