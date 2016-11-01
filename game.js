@@ -1,6 +1,5 @@
 // Canvas Asteroids
-//
-// Copyright (c) 2010 Doug McInnes
+//now turn to sm 
 //
 
 KEY_CODES = {
